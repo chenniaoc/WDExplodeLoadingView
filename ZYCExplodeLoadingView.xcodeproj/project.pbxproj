@@ -15,6 +15,7 @@
 		895FAF541BA66A51009CFA6D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 895FAF531BA66A51009CFA6D /* Images.xcassets */; };
 		895FAF571BA66A51009CFA6D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 895FAF551BA66A51009CFA6D /* LaunchScreen.xib */; };
 		895FAF631BA66A51009CFA6D /* ZYCExplodeLoadingViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 895FAF621BA66A51009CFA6D /* ZYCExplodeLoadingViewTests.m */; };
+		895FAF6F1BA66FCD009CFA6D /* ZYCExplodeStyleLoadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 895FAF6E1BA66FCD009CFA6D /* ZYCExplodeStyleLoadView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		895FAF5C1BA66A51009CFA6D /* ZYCExplodeLoadingViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYCExplodeLoadingViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		895FAF611BA66A51009CFA6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		895FAF621BA66A51009CFA6D /* ZYCExplodeLoadingViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYCExplodeLoadingViewTests.m; sourceTree = "<group>"; };
+		895FAF6D1BA66FCD009CFA6D /* ZYCExplodeStyleLoadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYCExplodeStyleLoadView.h; sourceTree = "<group>"; };
+		895FAF6E1BA66FCD009CFA6D /* ZYCExplodeStyleLoadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYCExplodeStyleLoadView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +69,7 @@
 		895FAF371BA66A51009CFA6D = {
 			isa = PBXGroup;
 			children = (
+				895FAF6C1BA66DB7009CFA6D /* SRC */,
 				895FAF421BA66A51009CFA6D /* ZYCExplodeLoadingView */,
 				895FAF5F1BA66A51009CFA6D /* ZYCExplodeLoadingViewTests */,
 				895FAF411BA66A51009CFA6D /* Products */,
@@ -122,6 +126,15 @@
 				895FAF611BA66A51009CFA6D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		895FAF6C1BA66DB7009CFA6D /* SRC */ = {
+			isa = PBXGroup;
+			children = (
+				895FAF6D1BA66FCD009CFA6D /* ZYCExplodeStyleLoadView.h */,
+				895FAF6E1BA66FCD009CFA6D /* ZYCExplodeStyleLoadView.m */,
+			);
+			path = SRC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,6 +237,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				895FAF6F1BA66FCD009CFA6D /* ZYCExplodeStyleLoadView.m in Sources */,
 				895FAF4F1BA66A51009CFA6D /* SecondViewController.m in Sources */,
 				895FAF491BA66A51009CFA6D /* AppDelegate.m in Sources */,
 				895FAF4C1BA66A51009CFA6D /* FirstViewController.m in Sources */,
